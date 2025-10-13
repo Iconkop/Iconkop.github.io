@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>小辰云小栈</title><description>A cute leaf in the wind.</description><link>https://demo-firefly.netlify.app/</link><language>zh_CN</language><item><title>Firefly 一款清新美观的 Astro 博客主题模板</title><link>https://demo-firefly.netlify.app/posts/firefly/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/firefly/</guid><description>Firefly 是一款基于 Astro 框架开发的清新美观且现代化个人博客主题，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。</description><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;🌟 项目概述&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>小辰云小栈</title><description>A cute leaf in the wind.</description><link>https://xcbgn.cn/</link><language>zh_CN</language><item><title>Firefly 一款清新美观的 Astro 博客主题模板</title><link>https://xcbgn.cn/posts/firefly/</link><guid isPermaLink="true">https://xcbgn.cn/posts/firefly/</guid><description>Firefly 是一款基于 Astro 框架开发的清新美观且现代化个人博客主题，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。</description><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;🌟 项目概述&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Firefly&lt;/strong&gt; 是一款基于 Astro 框架开发的清新美观且现代化个人博客主题，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;🖥️在线预览： &lt;a href=&quot;https://demo-firefly.netlify.app/&quot;&gt;Firefly - Demo site&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;🏠我的博客： &lt;a href=&quot;https://www.cuteleaf.cn/&quot;&gt;https://www.cuteleaf.cn&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -64,7 +64,7 @@
 │   └── sidebarConfig.ts     # 侧边栏配置
 └── FooterConfig.html        # 页脚HTML内容
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Firefly 简单使用指南</title><link>https://demo-firefly.netlify.app/posts/guide/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/guide/</guid><description>如何使用这个博客模板。</description><pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
+</content:encoded></item><item><title>Firefly 简单使用指南</title><link>https://xcbgn.cn/posts/guide/</link><guid isPermaLink="true">https://xcbgn.cn/posts/guide/</guid><description>如何使用这个博客模板。</description><pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
 &lt;h2&gt;文章的 Front-matter&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: 我的第一篇博客文章
@@ -186,7 +186,7 @@ URL：&lt;code&gt;/posts/how-to-use-firefly-blog-theme&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;如果多个文章使用相同的 slug，后面的文章会覆盖前面的&lt;/li&gt;
 &lt;li&gt;Slug 会自动转换为小写&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded></item><item><title>测试文章</title><link>https://demo-firefly.netlify.app/posts/code-examples/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/code-examples/</guid><description>在Firefly中使用表达性代码的代码块在 Markdown 中的外观。</description><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;在这里，我们将探索如何使用 &lt;a href=&quot;https://expressive-code.com/&quot;&gt;Expressive Code&lt;/a&gt; 展示代码块。提供的示例基于官方文档，您可以参考以获取更多详细信息。&lt;/p&gt;
+</content:encoded></item><item><title>测试文章</title><link>https://xcbgn.cn/posts/code-examples/</link><guid isPermaLink="true">https://xcbgn.cn/posts/code-examples/</guid><description>在Firefly中使用表达性代码的代码块在 Markdown 中的外观。</description><pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;在这里，我们将探索如何使用 &lt;a href=&quot;https://expressive-code.com/&quot;&gt;Expressive Code&lt;/a&gt; 展示代码块。提供的示例基于官方文档，您可以参考以获取更多详细信息。&lt;/p&gt;
 &lt;h2&gt;表达性代码&lt;/h2&gt;
 &lt;h3&gt;语法高亮&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://expressive-code.com/key-features/syntax-highlighting/&quot;&gt;语法高亮&lt;/a&gt;&lt;/p&gt;
@@ -395,7 +395,7 @@ console.log(&apos;抱歉，你知道我在第几行吗?&apos;)
 &lt;pre&gt;&lt;code&gt;console.log(&apos;来自第5行的问候!&apos;)
 console.log(&apos;我在第6行&apos;)
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Markdown 扩展功能</title><link>https://demo-firefly.netlify.app/posts/markdown-extended/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/markdown-extended/</guid><description>了解 Firefly 中的 Markdown 功能</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub 仓库卡片&lt;/h2&gt;
+</content:encoded></item><item><title>Markdown 扩展功能</title><link>https://xcbgn.cn/posts/markdown-extended/</link><guid isPermaLink="true">https://xcbgn.cn/posts/markdown-extended/</guid><description>了解 Firefly 中的 Markdown 功能</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub 仓库卡片&lt;/h2&gt;
 &lt;p&gt;您可以添加链接到 GitHub 仓库的动态卡片，在页面加载时，仓库信息会从 GitHub API 获取。&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;CuteLeaf/Firefly&quot;}&lt;/p&gt;
 &lt;p&gt;使用代码 &lt;code&gt;::github{repo=&quot;CuteLeaf/Firefly&quot;}&lt;/code&gt; 创建 GitHub 仓库卡片。&lt;/p&gt;
@@ -451,7 +451,7 @@ console.log(&apos;我在第6行&apos;)
 &lt;p&gt;您可以为文本添加剧透。文本也支持 &lt;strong&gt;Markdown&lt;/strong&gt; 语法。&lt;/p&gt;
 &lt;p&gt;内容 :spoiler[被隐藏了 &lt;strong&gt;哈哈&lt;/strong&gt;]！&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;内容 :spoiler[被隐藏了 **哈哈**]！&lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Markdown Mermaid 图表</title><link>https://demo-firefly.netlify.app/posts/markdown-mermaid/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/markdown-mermaid/</guid><description>一个包含 Mermaid 的 Markdown 博客文章简单示例。</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown 中 Mermaid 图表完整指南&lt;/h1&gt;
+</content:encoded></item><item><title>Markdown Mermaid 图表</title><link>https://xcbgn.cn/posts/markdown-mermaid/</link><guid isPermaLink="true">https://xcbgn.cn/posts/markdown-mermaid/</guid><description>一个包含 Mermaid 的 Markdown 博客文章简单示例。</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown 中 Mermaid 图表完整指南&lt;/h1&gt;
 &lt;p&gt;本文演示如何在 Markdown 文档中使用 Mermaid 创建各种复杂图表，包括流程图、时序图、甘特图、类图和状态图。&lt;/p&gt;
 &lt;h2&gt;流程图示例&lt;/h2&gt;
 &lt;p&gt;流程图非常适合表示流程或算法步骤。&lt;/p&gt;
@@ -602,7 +602,7 @@ console.log(&apos;我在第6行&apos;)
 &lt;p&gt;Mermaid 是在 Markdown 文档中创建各种类型图表的强大工具。本文演示了如何使用流程图、时序图、甘特图、类图、状态图和饼图。这些图表可以帮助您更清晰地表达复杂的概念、流程和数据结构。&lt;/p&gt;
 &lt;p&gt;要使用 Mermaid，只需在代码块中指定 mermaid 语言，并使用简洁的文本语法描述图表。Mermaid 会自动将这些描述转换为美观的可视化图表。&lt;/p&gt;
 &lt;p&gt;尝试在您的下一篇技术博客文章或项目文档中使用 Mermaid 图表 - 它们将使您的内容更加专业且更易理解！&lt;/p&gt;
-</content:encoded></item><item><title>在文章中嵌入视频</title><link>https://demo-firefly.netlify.app/posts/video/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/video/</guid><description>这篇文章演示如何在博客文章中嵌入视频。</description><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;只需从 YouTube 或其他平台复制嵌入代码，然后将其粘贴到 markdown 文件中。&lt;/p&gt;
+</content:encoded></item><item><title>在文章中嵌入视频</title><link>https://xcbgn.cn/posts/video/</link><guid isPermaLink="true">https://xcbgn.cn/posts/video/</guid><description>这篇文章演示如何在博客文章中嵌入视频。</description><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;只需从 YouTube 或其他平台复制嵌入代码，然后将其粘贴到 markdown 文件中。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: 在文章中嵌入视频
 published: 2023-10-19
@@ -615,7 +615,7 @@ published: 2023-10-19
 &lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;h2&gt;Bilibili&lt;/h2&gt;
 &lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&amp;amp;p=1&amp;amp;autoplay=0&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; &amp;amp;autoplay=0&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/p&gt;
-</content:encoded></item><item><title>草稿示例测试</title><link>https://demo-firefly.netlify.app/posts/draft/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;这篇文章是草稿&lt;/h1&gt;
+</content:encoded></item><item><title>草稿示例测试</title><link>https://xcbgn.cn/posts/draft/</link><guid isPermaLink="true">https://xcbgn.cn/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;这篇文章是草稿&lt;/h1&gt;
 &lt;p&gt;这篇文章目前处于草稿状态，尚未发布。因此，它不会对普通读者可见。内容仍在进行中，可能需要进一步编辑和审查。&lt;/p&gt;
 &lt;p&gt;当文章准备发布时，您可以在 Frontmatter 中将 &quot;draft&quot; 字段更新为 &quot;false&quot;：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
@@ -625,7 +625,7 @@ tags: [Markdown, 博客, 演示]
 category: 示例
 draft: false
 ---&lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Markdown 教程</title><link>https://demo-firefly.netlify.app/posts/markdown-tutorial/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/markdown-tutorial/</guid><description>一个简明的 Markdown 博客示例。</description><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown 教程&lt;/h1&gt;
+</content:encoded></item><item><title>Markdown 教程</title><link>https://xcbgn.cn/posts/markdown-tutorial/</link><guid isPermaLink="true">https://xcbgn.cn/posts/markdown-tutorial/</guid><description>一个简明的 Markdown 博客示例。</description><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown 教程&lt;/h1&gt;
 &lt;p&gt;这是一个展示如何编写 Markdown 文件的示例。本文档汇总了核心语法与常见扩展（GFM）。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#block-elements&quot;&gt;块级元素&lt;/a&gt;
