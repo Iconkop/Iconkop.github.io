@@ -2294,11 +2294,9 @@ const PAGINATION_RECORDS = "条记录";
         if (hasPrevPage) {
           html += `
           <button class="page-btn btn-regular inline-flex items-center gap-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150" data-page="1">
-            <span>⏪</span>
             <span class="hidden sm:inline">${this.config.pagination.first}</span>
           </button>
           <button class="page-btn btn-regular inline-flex items-center gap-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150" data-page="${this.currentPage - 1}">
-            <span>⬅️</span>
             <span class="hidden sm:inline">${this.config.pagination.prev}</span>
           </button>
         `;
@@ -2326,11 +2324,9 @@ const PAGINATION_RECORDS = "条记录";
           html += `
           <button class="page-btn btn-regular inline-flex items-center gap-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150" data-page="${this.currentPage + 1}">
             <span class="hidden sm:inline">${this.config.pagination.next}</span>
-            <span>➡️</span>
           </button>
           <button class="page-btn btn-regular inline-flex items-center gap-2 px-3 py-2.5 rounded-xl text-sm font-medium transition-all duration-150" data-page="${this.totalPages}">
             <span class="hidden sm:inline">${this.config.pagination.last}</span>
-            <span>⏩</span>
           </button>
         `;
         }
@@ -2344,13 +2340,11 @@ const PAGINATION_RECORDS = "条记录";
         if (isMobile) {
           // 移动端简化页面信息
           pageInfoEl.innerHTML = `
-          <span class="text-lg">📄</span>
           <span class="text-[var(--btn-content)]">共 ${this.totalCount} 条</span>
         `;
         } else {
           // 桌面端完整页面信息
           pageInfoEl.innerHTML = `
-          <span class="text-lg">📄</span>
           <span class="text-[var(--btn-content)]">${this.config.pagination.page} ${this.currentPage} ${this.config.pagination.of} ${this.totalPages} ${this.config.pagination.total} ${this.totalCount} ${this.config.pagination.records}</span>
         `;
         }
@@ -2428,178 +2422,6 @@ const PAGINATION_RECORDS = "条记录";
     }
   }
 
-  // 全局初始化函数
-  window.initAnimeManager = function () {
-    console.log("initAnimeManager called, pathname:", window.location.pathname);
-
-    // 只在动漫页面初始化
-    if (!window.location.pathname.includes("/anime")) {
-      console.log("Not on anime page, skipping");
-      return;
-    }
-
-    // 检查是否已经初始化
-    if (window.animeManagerInitialized) {
-      console.log("Already initialized, skipping");
-      return;
-    }
-
-    console.log("Attempting to initialize anime manager...");
-
-    let retryCount = 0;
-    const maxRetries = 20;
-
-    const checkAndInit = () => {
-      console.log(`Initialization attempt ${retryCount + 1}/${maxRetries}`);
-
-      if (!window.animePageConfig) {
-        console.log("animePageConfig not found");
-        if (retryCount < maxRetries) {
-          retryCount++;
-          setTimeout(checkAndInit, 100);
-        }
-        return;
-      }
-
-      const loadingEl = document.getElementById("loadingState");
-      if (!loadingEl) {
-        console.log("loadingState element not found");
-        if (retryCount < maxRetries) {
-          retryCount++;
-          setTimeout(checkAndInit, 100);
-        }
-        return;
-      }
-
-      console.log("Config and DOM ready, initializing AnimePageManager...");
-      try {
-        new AnimePageManager();
-        window.animeManagerInitialized = true;
-        console.log("AnimePageManager initialized successfully");
-      } catch (error) {
-        console.error("Initialization failed:", error);
-        if (retryCount < maxRetries) {
-          retryCount++;
-          setTimeout(checkAndInit, 200);
-        }
-      }
-    };
-
-    checkAndInit();
-  };
-
-  // 重置函数
-  window.resetAnimeManager = function () {
-    console.log("Resetting anime manager");
-    window.animeManagerInitialized = false;
-  };
-
-  // 立即尝试初始化
-  setTimeout(() => {
-    console.log("Initial initialization attempt");
-    window.initAnimeManager();
-  }, 0);
-
-  // DOM事件监听
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", () => {
-      console.log("DOMContentLoaded fired");
-      setTimeout(window.initAnimeManager, 50);
-    });
-  }
-
-  // 页面加载完成
-  window.addEventListener("load", () => {
-    console.log("Window load fired");
-    setTimeout(window.initAnimeManager, 100);
-  });
-
-  // Swup事件监听
-  document.addEventListener("swup:contentReplaced", (event) => {
-    console.log("swup:contentReplaced fired", event);
-    window.resetAnimeManager();
-    setTimeout(window.initAnimeManager, 200);
-  });
-
-  document.addEventListener("swup:pageView", (event) => {
-    console.log("swup:pageView fired", event);
-    setTimeout(window.initAnimeManager, 300);
-  });
-
-  // 备用初始化 - 如果所有其他方法都失败了
-  setTimeout(() => {
-    console.log("Backup initialization check");
-    if (
-      window.location.pathname.includes("/anime") &&
-      document.getElementById("loadingState") &&
-      !window.animeManagerInitialized
-    ) {
-      console.log("Backup initialization triggered");
-      window.initAnimeManager();
-    }
-  }, 3000);
-</script> <!-- 额外的 Swup 兼容性脚本 --> <script>
-  (function () {
-    console.log("Swup compatibility script loaded");
-
-    // 监听所有可能的 Swup 事件
-    const swupEvents = [
-      "swup:contentReplaced",
-      "swup:pageView",
-      "swup:animationOutDone",
-      "swup:transitionStart",
-      "swup:transitionEnd",
-    ];
-
-    swupEvents.forEach((eventName) => {
-      document.addEventListener(eventName, (event) => {
-        console.log(`${eventName} event fired`);
-        if (window.location.pathname.includes("/anime")) {
-          if (window.resetAnimeManager) {
-            window.resetAnimeManager();
-          }
-          setTimeout(() => {
-            if (window.initAnimeManager) {
-              window.initAnimeManager();
-            }
-          }, 100);
-        }
-      });
-    });
-
-    // 监听 URL 变化（用于 pushState/replaceState）
-    let currentPath = window.location.pathname;
-
-    const checkPathChange = () => {
-      if (window.location.pathname !== currentPath) {
-        console.log(
-          "Path changed from",
-          currentPath,
-          "to",
-          window.location.pathname
-        );
-        currentPath = window.location.pathname;
-
-        if (currentPath.includes("/anime")) {
-          if (window.resetAnimeManager) {
-            window.resetAnimeManager();
-          }
-          setTimeout(() => {
-            if (window.initAnimeManager) {
-              window.initAnimeManager();
-            }
-          }, 150);
-        }
-      }
-    };
-
-    // 定期检查路径变化
-    setInterval(checkPathChange, 500);
-
-    // 监听 popstate 事件（浏览器前进后退）
-    window.addEventListener("popstate", () => {
-      console.log("Popstate event fired");
-      setTimeout(checkPathChange, 100);
-    });
-  })();
+  // 直接初始化
+  new AnimePageManager();
 </script> 
