@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>小辰云小栈 - 筑梦云端</title><description>我的个人博客，分享日记</description><link>https://demo-firefly.netlify.app/</link><language>zh_CN</language><item><title>Firefly 简单使用指南</title><link>https://demo-firefly.netlify.app/posts/guide/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/guide/</guid><description>如何使用这个博客模板。</description><pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>小辰云小栈 - 筑梦云端</title><description>我的个人博客，分享日记</description><link>https://xcbgn.cn/</link><language>zh_CN</language><item><title>Firefly 简单使用指南</title><link>https://xcbgn.cn/posts/guide/</link><guid isPermaLink="true">https://xcbgn.cn/posts/guide/</guid><description>如何使用这个博客模板。</description><pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这个博客模板是基于 &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt; 构建的。对于本指南中未提及的内容，您可以在 &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro 文档&lt;/a&gt; 中找到答案。&lt;/p&gt;
 &lt;h2&gt;文章的 Front-matter&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: 我的第一篇博客文章
@@ -120,5 +120,5 @@ URL：&lt;code&gt;/posts/how-to-use-firefly-blog-theme&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;如果多个文章使用相同的 slug，后面的文章会覆盖前面的&lt;/li&gt;
 &lt;li&gt;Slug 会自动转换为小写&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded></item><item><title>第一篇文章</title><link>https://demo-firefly.netlify.app/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link><guid isPermaLink="true">https://demo-firefly.netlify.app/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid><description>这是本博客第一篇文章</description><pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这是本博客第一篇文章，现在是2025年10月22日凌晨1点，本博客正式试运行，后续将逐渐完善&lt;/p&gt;
+</content:encoded></item><item><title>第一篇文章</title><link>https://xcbgn.cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link><guid isPermaLink="true">https://xcbgn.cn/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid><description>这是本博客第一篇文章</description><pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;这是本博客第一篇文章，现在是2025年10月22日凌晨1点，本博客正式试运行，后续将逐渐完善&lt;/p&gt;
 </content:encoded></item></channel></rss>
